@@ -1,0 +1,32 @@
+{
+  "logo": {
+    "logo": "abbott_original_one_line"
+  },
+  "footer": {
+    "bottomFooterImage": "",
+
+    "logo": {
+      "src": ""
+    }
+  },
+  "scenarios": {
+    "hotSlides": {}
+  },
+  "productLogoNeuro": {
+    "src": "media/images/common/betaserk-white-logo.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "hiddenReferences": {
+    "html": "t.hiddenReferences"
+  },
+  "title": {
+    "html": "t.title"
+  },
+  "approveNumber": {
+    "html": "t.approveNumber"
+  },
+  "slideBg": {
+    "src": "media/images/common/thumbs/slideBg.jpg"
+  }
+}

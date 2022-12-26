@@ -1,0 +1,114 @@
+{
+  "slides": {
+    "home": {
+      "name": "Home",
+      "template": "home.html"
+    },
+    "moodBoost": {
+      "name": "MoodBoost",
+      "template": "moodBoost.html"
+    },
+    "brain": {
+      "name": "Brain",
+      "template": "brain.html"
+    },
+    "idebenonResearch": {
+      "name": "IdebenonResearch",
+      "template": "idebenonResearch.html"
+    },
+    "idebenonFavorableProfile": {
+      "name": "IdebenonFavorableProfile",
+      "template": "idebenonFavorableProfile.html"
+    },
+    "idebenonSecurity": {
+      "name": "IdebenonSecurity",
+      "template": "idebenonSecurity.html"
+    },
+    "treatmentTable": {
+      "name": "TreatmentTable",
+      "template": "treatmentTable.html"
+    },
+    "advantages": {
+      "name": "Advantages",
+      "template": "advantages.html"
+    },
+    "effectOfTheDrug": {
+      "name": "EffectOfTheDrug",
+      "template": "effectOfTheDrug.html"
+    },
+    "gameScore": {
+      "name": "GameScore",
+      "template": "gameScore.html"
+    },
+    "gameFindTheNumber": {
+      "name": "GameFindTheNumber",
+      "template": "gameFindTheNumber.html"
+    },
+    "superfluous": {
+      "name": "Superfluous",
+      "template": "superfluous.html"
+    }
+  },
+  "chapters": {
+    "patientProfiles": {
+      "name": "ПРОФИЛИ ПАЦИЕНТОВ",
+      "content": [
+      ]
+    },
+    "homepage": {
+      "name": "ДОМОЙ",
+      "content": [
+        "home",
+        "moodBoost",
+        "brain",
+        "idebenonResearch",
+        "idebenonFavorableProfile",
+        "idebenonSecurity",
+        "treatmentTable",
+        "advantages",
+        "effectOfTheDrug",
+        "gameScore",
+        "gameFindTheNumber",
+        "superfluous"
+      ]
+    },
+    "tools": {
+      "name": "ИНСТРУМЕНТЫ",
+      "content": []
+    },
+    "actualization": {
+      "name": "АКТУАЛИЗАЦИЯ",
+      "content": []
+    },
+    "mechanism": {
+      "name": "МЕХАНИЗМ ДЕЙСТВИЯ",
+      "content": []
+    },
+    "argumentation": {
+      "name": "АРГУМЕНТАЦИЯ",
+      "content": []
+    },
+    "doses": {
+      "name": "ДОЗИРОВАНИЕ",
+      "content": []
+    },
+    "objections": {
+      "name": "ВОЗРАЖЕНИЯ",
+      "content": []
+    },
+    "benefits": {
+      "name": "ПРЕИМУЩЕСТВА",
+      "content": []
+    }
+  },
+  "storyboard": [
+    "homepage",
+    "tools",
+    "actualization",
+    "mechanism",
+    "argumentation",
+    "doses",
+    "objections",
+    "benefits"
+  ]
+}
