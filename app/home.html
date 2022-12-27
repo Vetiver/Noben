@@ -32,7 +32,7 @@
   <co-container class="main">
     <co-image class="bg" model="m.bg"></co-image>
     <co-container class="buttons">
-      <co-image class="plus plus1" model="m.plus"></co-image>
+      <co-image rv-open-popup="m.openPopup1" class="plus plus1" model="m.plus"></co-image>
       <co-image class="plus plus2" model="m.plus"></co-image>
       <co-image class="plus plus3" model="m.plus"></co-image>
       <co-image class="plus plus4" model="m.plus"></co-image>
@@ -44,6 +44,13 @@
   </co-container>
 
   <co-text class="hidden-references" model="m.hiddenReferences"></co-text>
+
+  <co-popup id="popup1" class="popup popup-1">
+    <co-text class="co-popup-title" model="m.popup-title"></co-text>
+    <co-container class="popupTextContainer">
+      <co-text class="title" model="m.popup-title"></co-text>
+    </co-container>
+  </co-popup>
 </article>
 
 <script src="../spa/bundle.js"></script>

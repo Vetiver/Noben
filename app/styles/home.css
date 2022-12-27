@@ -126,3 +126,36 @@ co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
     margin-top: -28px;
     margin-left: -45px;
 }
+
+
+#popup1 {
+  display: flex;
+    flex-direction: column;
+    width: 873px;
+    height: 567px;
+    transform: matrix(1, 0, 0, 1, 0, 0) !important;
+    position: absolute;
+    z-index: 11;
+    padding-top: 262px;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin: auto;
+}
+
+co-popup#popup1 .close-button {
+  transform: matrix(1, 0, 0, 1, 1, 0) !important;
+}
+
+co-popup .close-button[co-popup] co-container[co-popup] {
+  position: relative;
+}
+
+co-popup#popup1 .close-button co-container {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+co-popup#popup1 .close-button[co-popup] {
+  top: 13px;
+  right: 13px;
+}
