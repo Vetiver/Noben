@@ -32,11 +32,11 @@
   "slideBg": {
     "src": "media/images/common/thumbs/slideBg.jpg"
   },
-  "bg":{
-    "src":"media/images/home/bg.png"
+  "bg": {
+    "src": "media/images/home/bg.png"
   },
-  "plus":{
-    "src":"media/images/home/plus.png"
+  "plus": {
+    "src": "media/images/home/plus.png"
   },
   "popup1": {
     "id": "popup1",
@@ -84,7 +84,246 @@
       "blockOispatcher": false
     }
   },
-  "choice":{
-    "src":"media/images/home/choice.png"
+  "openPopup3": {
+    "id": "popup3",
+    "showOnSlideenter": false,
+    "shoeCloseButton": true,
+    "visible": false,
+    "closeButtonImage": {
+      "src": "media/images/common/closeIconGray.png"
+    },
+
+    "hideOnOutsideTap": false,
+    "showAnimation": {
+      "name": "fadeIn",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": false,
+      "blockOispatcher": false
+    },
+    "hideAnimation": {
+      "name": "fadeOut",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": true,
+      "blockOispatcher": false
+    }
+  },
+  "openPopup4": {
+    "id": "popup4",
+    "showOnSlideenter": false,
+    "shoeCloseButton": true,
+    "visible": false,
+    "closeButtonImage": {
+      "src": "media/images/common/closeIconGray.png"
+    },
+
+    "hideOnOutsideTap": false,
+    "showAnimation": {
+      "name": "fadeIn",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": false,
+      "blockOispatcher": false
+    },
+    "hideAnimation": {
+      "name": "fadeOut",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": true,
+      "blockOispatcher": false
+    }
+  },
+  "openPopup5": {
+    "id": "popup5",
+    "showOnSlideenter": false,
+    "shoeCloseButton": true,
+    "visible": false,
+    "closeButtonImage": {
+      "src": "media/images/common/closeIconGray.png"
+    },
+
+    "hideOnOutsideTap": false,
+    "showAnimation": {
+      "name": "fadeIn",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": false,
+      "blockOispatcher": false
+    },
+    "hideAnimation": {
+      "name": "fadeOut",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": true,
+      "blockOispatcher": false
+    }
+  },
+  "openPopup6": {
+    "id": "popup6",
+    "showOnSlideenter": false,
+    "shoeCloseButton": true,
+    "visible": false,
+    "closeButtonImage": {
+      "src": "media/images/common/closeIconGray.png"
+    },
+
+    "hideOnOutsideTap": false,
+    "showAnimation": {
+      "name": "fadeIn",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": false,
+      "blockOispatcher": false
+    },
+    "hideAnimation": {
+      "name": "fadeOut",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": true,
+      "blockOispatcher": false
+    }
+  },
+  "choice": {
+    "src": "media/images/home/choice.png"
+  },
+  "popup1-title": {
+    "html": "t.popup1-title"
+  },
+  "popup2-title": {
+    "html": "t.popup2-title"
+  },
+  "popup3-title": {
+    "html": "t.popup3-title"
+  },
+  "popup4-title": {
+    "html": "t.popup4-title"
+  },
+  "popup5-title": {
+    "html": "t.popup5-title"
+  },
+  "popup6-title": {
+    "html": "t.popup6-title"
+  },
+  "popup-subtitle1": {
+    "html": "t.popup-subtitle1"
+  },
+  "popup-subtitle2": {
+    "html": "t.popup-subtitle2"
+  },
+  "popup-subtitle3": {
+    "html": "t.popup-subtitle3"
+  },
+  "popup-list-item1-content1": {
+    "html": "t.popup-list-item1-content1"
+  },
+  "popup-list-item1-content2": {
+    "html": "t.popup-list-item1-content2"
+  },
+  "popup-list-item1-content3": {
+    "html": "t.popup-list-item1-content3"
+  },
+  "popup-list-item1-content4": {
+    "html": "t.popup-list-item1-content4"
+  },
+  "popup-list-item1-content5": {
+    "html": "t.popup-list-item1-content5"
+  },
+  "popup-list-item2-content1": {
+    "html": "t.popup-list-item2-content1"
+  },
+  "popup-list-item2-content2": {
+    "html": "t.popup-list-item2-content2"
+  },
+  "popup-list-item2-content3": {
+    "html": "t.popup-list-item2-content3"
+  },
+  "popup-list-item2-content4": {
+    "html": "t.popup-list-item2-content4"
+  },
+  "popup-list-item2-content5": {
+    "html": "t.popup-list-item2-content5"
+  },
+  "popup-list-item2-content6": {
+    "html": "t.popup-list-item2-content6"
+  },
+  "popup-list-item2-content7": {
+    "html": "t.popup-list-item2-content7"
+  },
+  "popup-list-item2-content8": {
+    "html": "t.popup-list-item2-content8"
+  },
+  "popup-list-item2-content9": {
+    "html": "t.popup-list-item2-content9"
+  },
+  "popup-list-item2-content10": {
+    "html": "t.popup-list-item2-content10"
+  },
+  "popup-list-item3-content1": {
+    "html": "t.popup-list-item3-content1"
+  },
+  "popup-list-item3-content2": {
+    "html": "t.popup-list-item3-content2"
+  },
+  "popup-list-item3-content3": {
+    "html": "t.popup-list-item3-content3"
+  },
+  "popup-list-item3-content4": {
+    "html": "t.popup-list-item3-content4"
+  },
+  "popup-list-item3-content5": {
+    "html": "t.popup-list-item3-content5"
+  },
+  "popup-list-item3-content6": {
+    "html": "t.popup-list-item3-content6"
+  },
+  "popup-list-item3-content7": {
+    "html": "t.popup-list-item3-content7"
+  },
+  "popup-list-item3-content8": {
+    "html": "t.popup-list-item3-content8"
+  },
+  "popup-list-item3-content9": {
+    "html": "t.popup-list-item3-content9"
+  },
+  "popup-list-item3-content10": {
+    "html": "t.popup-list-item3-content10"
+  },
+  "popup-list-item3-content11": {
+    "html": "t.popup-list-item3-content11"
+  },
+  "popup1-img": {
+    "src": "media/images/home/anna.png"
+  },
+  "popup2-img": {
+    "src": "media/images/home/ivan.png"
+  },
+  "popup3-img": {
+    "src": "media/images/home/vera.png"
+  },
+  "popup4-img": {
+    "src": "media/images/home/mihail.png"
+  },
+  "popup5-img": {
+    "src": "media/images/home/anna.png"
+  },
+  "popup6-img": {
+    "src": "media/images/home/pavel.png"
   }
 }

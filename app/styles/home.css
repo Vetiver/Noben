@@ -12,35 +12,35 @@
   color: #000;
 }
 co-ab-ru-nav-menu {
-  background: #009CDE;
+  background: #009cde;
 }
 article.slide .approve-text.approve-number {
   position: absolute;
-    display: block;
-    font-size: 12px;
-    line-height: 8px;
-    right: auto;
-    left: 52px;
-    top: auto;
-    width: auto;
-    height: auto;
-    bottom: 32px;
-    color: #009CDE;
-    font-weight: 300;
-    transform: none;
-    z-index: 10;
+  display: block;
+  font-size: 12px;
+  line-height: 8px;
+  right: auto;
+  left: 52px;
+  top: auto;
+  width: auto;
+  height: auto;
+  bottom: 32px;
+  color: #009cde;
+  font-weight: 300;
+  transform: none;
+  z-index: 10;
 }
 article.slide .slide-title {
   position: absolute;
-    display: block;
-    left: 50px;
-    top: 166px;
-    font-size: 45px;
-    line-height: 40px;
-    color: #009CDE;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 0px;
+  display: block;
+  left: 50px;
+  top: 166px;
+  font-size: 45px;
+  line-height: 40px;
+  color: #009cde;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0px;
 }
 .hidden-references {
   display: none;
@@ -54,10 +54,10 @@ article.slide .slide-title {
 
 co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
   position: absolute;
-    transform: none;
-    top: 49px;
-    left: 40px;
-    height: 32px;
+  transform: none;
+  top: 49px;
+  left: 40px;
+  height: 32px;
 }
 
 .slide-bg {
@@ -85,7 +85,7 @@ co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
   font-size: 28px;
   width: 557px;
   line-height: 36px;
-  color: #009CDE;
+  color: #009cde;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: -0.2px;
@@ -122,24 +122,31 @@ co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
 
 .choice {
   width: 173px;
-    height: 99px;
-    margin-top: -28px;
-    margin-left: -45px;
+  height: 99px;
+  margin-top: -28px;
+  margin-left: -45px;
 }
 
-
-#popup1 {
+.popup {
   display: flex;
-    flex-direction: column;
-    width: 873px;
-    height: 567px;
-    transform: matrix(1, 0, 0, 1, 0, 0) !important;
-    position: absolute;
-    z-index: 11;
-    padding-top: 262px;
-    padding-left: 43px;
-    padding-right: 43px;
-    margin: auto;
+  flex-direction: column;
+  width: 873px;
+  height: 567px;
+  transform: matrix(1, 0, 0, 1, 0, 0) !important;
+  position: absolute;
+  z-index: 11;
+  padding-top: 32px;
+  padding-left: 44px;
+  padding-right: 43px;
+  margin: auto;
+}
+
+.co-popup-img {
+  position: absolute;
+  top: -272px;
+  right: -127px;
+  width: 1300px;
+  height: 1300px;
 }
 
 co-popup#popup1 .close-button {
@@ -158,4 +165,57 @@ co-popup#popup1 .close-button co-container {
 co-popup#popup1 .close-button[co-popup] {
   top: 13px;
   right: 13px;
+}
+
+.co-popup-title {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: #ff7e2c;
+  text-transform: uppercase;
+}
+
+.co-popup-subtitle {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.co-popup-list {
+  padding-top: 15px;
+}
+
+.co-popup-list-item:nth-child(2) {
+  padding-top: 10px;
+}
+
+.co-popup-list-item:nth-child(3) {
+  padding-top: 12px;
+}
+
+.co-popup-subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  padding-bottom: 3.5px;
+}
+
+.co-popup-list-item-content {
+  position: relative;
+  font-size: 22px;
+  padding-left: 13.5px;
+  letter-spacing: 0.22px;
+  line-height: 26px;
+}
+
+.co-popup-list-item-content::before {
+  content: "";
+  background: #000;
+  display: block;
+  width: 5.5px;
+  height: 5.5px;
+  border-radius: 100%;
+  position: absolute;
+  top: 11.5px;
+  left: 1.5px;
 }

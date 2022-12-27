@@ -1,59 +1,469 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="format-detection" content="telephone=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="format-detection" content="telephone=no" />
 
-  <!-- components -->
-  <rv-template name="common-components"></rv-template>
-  <!-- /components -->
+    <!-- components -->
+    <rv-template name="common-components"></rv-template>
+    <!-- /components -->
 
-  <!-- styles -->
-	<link rel="stylesheet" href="styles/home.css">
-  <!-- /styles -->
-</head>
-<body>
-<article class="slide">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/home.css" />
+    <!-- /styles -->
+  </head>
+  <body>
+    <article class="slide">
+      <!-- <co-image class="slide-bg" model="m.slideBg"></co-image> -->
+      <!-- /layout -->
+      <rv-template name="layout"></rv-template>
+      <!-- /layout -->
+      <!--Pill's Name-->
+      <co-image
+        id="productLogoNeuro"
+        class="pa product-logo-neuro"
+        model="m.productLogoNeuro"
+      ></co-image>
+      <co-text
+        class="approve-text approve-number"
+        model="m.approveNumber"
+      ></co-text>
+      <co-text class="slide-title" model="m.title"></co-text>
+      <co-text class="sub-title" model="m.subTitle"></co-text>
 
-   <co-image class="slide-bg" model="m.slideBg"></co-image>
-  <!-- /layout -->
-  <rv-template name="layout"></rv-template>
-  <!-- /layout -->
-  <!--Pill's Name-->
-  <co-image id="productLogoNeuro" class="pa product-logo-neuro" model="m.productLogoNeuro"></co-image>
-  <co-text class="approve-text approve-number" model="m.approveNumber"></co-text>
-  <co-text class="slide-title" model="m.title"></co-text>
-  <co-text class="sub-title" model="m.subTitle"></co-text>
+      <co-container class="main">
+        <co-image class="bg" model="m.bg"></co-image>
+        <co-container class="buttons">
+          <co-image
+            rv-open-popup="m.openPopup1"
+            class="plus plus1"
+            model="m.plus"
+          ></co-image>
+          <co-image
+            rv-open-popup="m.openPopup2"
+            class="plus plus2"
+            model="m.plus"
+          ></co-image>
+          <co-image
+            rv-open-popup="m.openPopup3"
+            class="plus plus3"
+            model="m.plus"
+          ></co-image>
+          <co-image
+            rv-open-popup="m.openPopup4"
+            class="plus plus4"
+            model="m.plus"
+          ></co-image>
+          <co-image
+            rv-open-popup="m.openPopup5"
+            class="plus plus5"
+            model="m.plus"
+          ></co-image>
+          <co-image
+            rv-open-popup="m.openPopup6"
+            class="plus plus6"
+            model="m.plus"
+          ></co-image>
+          <co-image class="choice" model="m.choice"></co-image>
+        </co-container>
+      </co-container>
 
+      <co-text class="hidden-references" model="m.hiddenReferences"></co-text>
 
-  <co-container class="main">
-    <co-image class="bg" model="m.bg"></co-image>
-    <co-container class="buttons">
-      <co-image rv-open-popup="m.openPopup1" class="plus plus1" model="m.plus"></co-image>
-      <co-image class="plus plus2" model="m.plus"></co-image>
-      <co-image class="plus plus3" model="m.plus"></co-image>
-      <co-image class="plus plus4" model="m.plus"></co-image>
-      <co-image class="plus plus5" model="m.plus"></co-image>
-      <co-image class="plus plus6" model="m.plus"></co-image>
-      <co-image class="choice" model="m.choice"></co-image>
-    </co-container>
-    </co-container>
-  </co-container>
+      <co-popup id="popup1" class="popup popup-1">
+        <co-image class="co-popup-img" model="m.popup1-img"></co-image>
+        <co-text class="co-popup-title" model="m.popup1-title"></co-text>
+        <co-container class="popupTextContainer">
+          <co-container class="co-popup-list">
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content4"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content5"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content3"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content3"
+              ></co-text>
+            </co-container>
+          </co-container>
+        </co-container>
+      </co-popup>
+      <co-popup id="popup2" class="popup popup-2">
+        <co-image class="co-popup-img" model="m.popup2-img"></co-image>
+        <co-text class="co-popup-title" model="m.popup2-title"></co-text>
+        <co-container class="popupTextContainer">
+          <co-container class="co-popup-list">
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content4"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content5"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content4"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content3"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content3"
+              ></co-text>
+            </co-container>
+          </co-container>
+        </co-container>
+      </co-popup>
+      <co-popup id="popup3" class="popup popup-2">
+        <co-image class="co-popup-img" model="m.popup3-img"></co-image>
+        <co-text class="co-popup-title" model="m.popup3-title"></co-text>
+        <co-container class="popupTextContainer">
+          <co-container class="co-popup-list">
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content4"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content4"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content3"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content6"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content7"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content8"
+              ></co-text>
+            </co-container>
+          </co-container>
+        </co-container>
+      </co-popup>
+      <co-popup id="popup4" class="popup popup-2">
+        <co-image class="co-popup-img" model="m.popup4-img"></co-image>
+        <co-text class="co-popup-title" model="m.popup4-title"></co-text>
+        <co-container class="popupTextContainer">
+          <co-container class="co-popup-list">
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content4"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content5"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content3"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content9"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content10"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content5"
+              ></co-text>
+            </co-container>
+          </co-container>
+        </co-container>
+      </co-popup>
+      <co-popup id="popup5" class="popup popup-5">
+        <co-image class="co-popup-img" model="m.popup5-img"></co-image>
+        <co-text class="co-popup-title" model="m.popup5-title"></co-text>
+        <co-container class="popupTextContainer">
+          <co-container class="co-popup-list">
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content4"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content4"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content10"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content6"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content10"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item3-content11"
+              ></co-text>
+            </co-container>
+          </co-container>
+        </co-container>
+      </co-popup>
+      <co-popup id="popup6" class="popup popup-6">
+        <co-image class="co-popup-img" model="m.popup6-img"></co-image>
+        <co-text class="co-popup-title" model="m.popup6-title"></co-text>
+        <co-container class="popupTextContainer">
+          <co-container class="co-popup-list">
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content1"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content3"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item1-content4"
+              ></co-text>
+            </co-container>
+            <co-container class="co-popup-list-item">
+              <co-text
+                class="co-popup-subtitle"
+                model="m.popup-subtitle2"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content6"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content7"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content8"
+              ></co-text>
+              <co-text
+                class="co-popup-list-item-content"
+                model="m.popup-list-item2-content9"
+              ></co-text>
+            </co-container>
+          </co-container>
+        </co-container>
+      </co-popup>
+    </article>
 
-  <co-text class="hidden-references" model="m.hiddenReferences"></co-text>
-
-  <co-popup id="popup1" class="popup popup-1">
-    <co-text class="co-popup-title" model="m.popup-title"></co-text>
-    <co-container class="popupTextContainer">
-      <co-text class="title" model="m.popup-title"></co-text>
-    </co-container>
-  </co-popup>
-</article>
-
-<script src="../spa/bundle.js"></script>
-<script src="scripts/index.js"></script>
-</body>
+    <script src="../spa/bundle.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
 </html>
