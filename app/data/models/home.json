@@ -13,7 +13,7 @@
     "hotSlides": {}
   },
   "productLogoNeuro": {
-    "src": "media/images/common/betaserk-white-logo.png",
+    "src": "media/images/home/noben.svg",
     "position": "center center",
     "size": "contain"
   },
@@ -23,10 +23,22 @@
   "title": {
     "html": "t.title"
   },
+  "subTitle": {
+    "html": "t.subTitle"
+  },
   "approveNumber": {
     "html": "t.approveNumber"
   },
   "slideBg": {
     "src": "media/images/common/thumbs/slideBg.jpg"
+  },
+  "bg":{
+    "src":"media/images/home/bg.png"
+  },
+  "plus":{
+    "src":"media/images/home/plus.png"
+  },
+  "choice":{
+    "src":"media/images/home/choice.png"
   }
 }
