@@ -63,15 +63,37 @@
     "closeButtonImage": {
       "src": "media/images/common/closeIconGray.png"
     },
-    "openPopup2": {
-      "id": "popup2",
-      "showOnSlideenter": false,
-      "shoeCloseButton": true,
-      "visible": false,
-      "closeButtonImage": {
-        "src": "media/images/common/closeIconGray.png"
-      }
+
+    "hideOnOutsideTap": false,
+    "showAnimation": {
+      "name": "fadeIn",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": false,
+      "blockOispatcher": false
     },
+    "hideAnimation": {
+      "name": "fadeOut",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": true,
+      "blockOispatcher": false
+    }
+  },
+
+  "openPopup2": {
+    "id": "popup2",
+    "showOnSlideenter": false,
+    "shoeCloseButton": true,
+    "visible": false,
+    "closeButtonImage": {
+      "src": "media/images/common/closeIconGray.png"
+    },
+
     "hideOnOutsideTap": false,
     "showAnimation": {
       "name": "fadeIn",
