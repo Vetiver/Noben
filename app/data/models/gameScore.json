@@ -9,11 +9,8 @@
       "src": ""
     }
   },
-  "scenarios": {
-    "hotSlides": {}
-  },
   "productLogoNeuro": {
-    "src": "media/images/common/betaserk-white-logo.png",
+    "src": "media/images/home/noben_white.svg",
     "position": "center center",
     "size": "contain"
   },
@@ -26,7 +23,65 @@
   "approveNumber": {
     "html": "t.approveNumber"
   },
+  "popup1": {
+    "id": "popup1",
+    "showOnSlideenter": false,
+    "showCloseButton": true,
+    "visible": false,
+    "closeButtonImage": { "src": "media/images/common/closeIconGray.png" },
+    "hideOnOutsideTap": false,
+    "showAnimation": {
+      "name": "fadeIn",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": false,
+      "blockDispatcher": false
+    }
+  },
+  "openPopup1": {
+    "id": "popup1",
+    "showOnSlideenter": false,
+    "shoeCloseButton": true,
+    "visible": false,
+    "closeButtonImage": {
+      "src": "media/images/common/closeIconGray.png"
+    },
+
+    "hideOnOutsideTap": false,
+    "showAnimation": {
+      "name": "fadeIn",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": false,
+      "blockOispatcher": false
+    },
+    "hideAnimation": {
+      "name": "fadeOut",
+      "duration": 0.1,
+      "delay": 0,
+      "infinite": false,
+      "on": "",
+      "initVisibility": true,
+      "blockOispatcher": false
+    }
+  },
   "slideBg": {
-    "src": "media/images/common/thumbs/portraitSlide1.jpg"
+    "src": "media/images/common/thumbs/gameScore.jpg"
+  },
+  "check-score-btn": {
+    "src": "media/images/gameScore/check-result-btn.png"
+  },
+  "return-btn": {
+    "src": "media/images/gameScore/return-btn.png"
+  },
+  "game-image": {
+    "src": "media/images/gameScore/game.png"
+  },
+  "popup1-img": {
+    "src": "media/images/gameScore/number.png"
   }
 }

@@ -37,7 +37,7 @@
       "template": "effectOfTheDrug.html"
     },
     "gameScore": {
-      "name": "GameScore",
+      "name": "gameScore",
       "template": "gameScore.html"
     },
     "gameFindTheNumber": {

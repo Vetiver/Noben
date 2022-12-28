@@ -6,38 +6,41 @@
   font-size: 28px;
   font-weight: 400;
   color: #000000;
+  background: url(/app/media/images/gameScore/bg.png) no-repeat;
+  background-size: contain;
 }
 
 .slide .approve-number {
   color: #000;
 }
 co-ab-ru-nav-menu {
-  background: #009CDE;
+  background: #009cde;
 }
 article.slide .approve-text.approve-number {
   position: absolute;
   display: block;
-  font-size: 9px;
-  line-height: 8px;
+  font-size: 12.5px;
+  line-height: 12px;
   right: auto;
-  left: 53px;
+  left: 52px;
   top: auto;
   width: auto;
   height: auto;
-  bottom: 53px;
-  color: #000 ;
+  bottom: 30px;
+  color: #000;
   font-weight: 300;
   transform: none;
   z-index: 10;
+  font-weight: 900;
 }
 article.slide .slide-title {
   position: absolute;
   display: block;
-  left: 50px;
-  top: 149px;
-  font-size: 33px;
-  line-height: 40px;
-  color: #009CDE;
+  left: 51px;
+  top: 164px;
+  font-size: 29px;
+  line-height: 30px;
+  color: #009cde;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 0px;
@@ -46,17 +49,17 @@ article.slide .slide-title {
   display: none;
 }
 .slide .product-logo-neuro {
-  height: 46px;
-  top: 50px;
-  right: 55px;
+  height: 65px;
+  top: 38px;
+  right: 46px;
 }
 
 co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
   position: absolute;
   transform: none;
-  top: 49px;
-  left: 54px;
-  height: 34px;
+  top: 48px;
+  left: 41px;
+  height: 32px;
 }
 
 .slide-bg {
@@ -84,4 +87,77 @@ co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
   left: 0;
   top: 0;
   z-index: -1;
+}
+
+.game-image {
+  width: 600px;
+  height: 600px;
+  margin-top: 165px;
+  margin-left: 40px;
+}
+
+.check-score-btn {
+  position: absolute;
+  bottom: 76px;
+  right: 171px;
+  width: 242px;
+  height: 100px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.return-btn {
+  position: absolute;
+  bottom: 146px;
+  right: 171px;
+  width: 242px;
+  height: 100px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  height: 315px;
+  transform: matrix(1, 0, 0, 1, 0, 0) !important;
+  position: absolute;
+  z-index: 11;
+
+  margin: auto;
+}
+
+.co-popup-img {
+  position: absolute;
+  top: 89px;
+  right: 198px;
+  width: 120px;
+  height: 120px;
+}
+
+co-popup#popup1 .close-button {
+  transform: matrix(1, 0, 0, 1, 1, 0) !important;
+}
+
+co-popup .close-button[co-popup] co-container[co-popup] {
+  position: relative;
+}
+
+co-popup#popup1 .close-button co-container {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+co-popup#popup1 .close-button[co-popup] {
+  top: 13px;
+  right: 13px;
+}
+
+.co-popup-title {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: #ff7e2c;
+  text-transform: uppercase;
 }
