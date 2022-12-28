@@ -63,7 +63,15 @@
     "closeButtonImage": {
       "src": "media/images/common/closeIconGray.png"
     },
-
+    "openPopup2": {
+      "id": "popup2",
+      "showOnSlideenter": false,
+      "shoeCloseButton": true,
+      "visible": false,
+      "closeButtonImage": {
+        "src": "media/images/common/closeIconGray.png"
+      }
+    },
     "hideOnOutsideTap": false,
     "showAnimation": {
       "name": "fadeIn",
