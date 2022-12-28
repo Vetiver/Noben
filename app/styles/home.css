@@ -219,3 +219,20 @@ co-popup#popup1 .close-button[co-popup] {
   top: 11.5px;
   left: 1.5px;
 }
+
+
+.img4 {
+  position: absolute;
+    top: 56px;
+    right: -406px;
+    width: 1279px;
+    height: 1067px;
+}
+
+.img6 {
+  position: absolute;
+    top: -109px;
+    right: -127px;
+    width: 1300px;
+    height: 1300px;
+}

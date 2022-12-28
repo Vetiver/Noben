@@ -32,30 +32,57 @@ article.slide .approve-text.approve-number {
 }
 article.slide .slide-title {
   position: absolute;
-  display: block;
-  left: 50px;
-  top: 149px;
-  font-size: 33px;
-  line-height: 40px;
-  color: #009CDE;
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 0px;
+    display: block;
+    left: 50px;
+    top: 160px;
+    font-size: 29px;
+    line-height: 40px;
+    color: #009CDE;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0px;
 }
 .hidden-references {
   display: none;
 }
 .slide .product-logo-neuro {
   height: 46px;
-  top: 50px;
-  right: 55px;
+    top: 45px;
+    right: 46px;
+}
+
+.tr6 {
+  display: none;
+  position: absolute;
+  top: 318px;
+  left: 179px;
+  width: 134px;
+  height: 119px;
+}
+
+.tr3 {
+  display: none;
+  position: absolute;
+    top: 552px;
+    left: 396px;
+    width: 151px;
+    height: 114px;
+}
+
+.tr23 {
+  display: none;
+  position: absolute;
+  top: 529px;
+  left: 55px;
+  width: 125px;
+  height: 100px;
 }
 
 co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
   position: absolute;
   transform: none;
   top: 49px;
-  left: 54px;
+  left: 49px;
   height: 34px;
 }
 
@@ -84,4 +111,81 @@ co-ab-ru-logo-menu .logoButton[co-ab-ru-logo-menu] {
   left: 0;
   top: 0;
   z-index: -1;
+}
+
+.bg {
+  position: absolute;
+  display: block;
+  width: 773px;
+  height: 726px;
+  left: -76px;
+  bottom: -146px;
+  z-index: -1;
+}
+
+.help {
+  position: absolute;
+  font-size: 21px;
+  top: 236px;
+  left: 92px;
+  width: 230px;
+  line-height: 23px;
+}
+
+.fing {
+  position: absolute;
+    display: block;
+    width: 54px;
+    height: 58px;
+    left: 37px;
+    top: 224px;
+    z-index: -1;
+}
+
+.numbCo {
+  position: absolute;
+    top: 202px;
+    display: flex;
+    gap: 14px;
+    left: 350px;
+}
+
+.number {
+  width: 64px;
+  height: 100px;
+}
+
+.numbCoActive {
+  position: absolute;
+    top: 202px;
+    display: flex;
+    gap: 14px;
+    left: 350px;
+    display: none;
+}
+
+.show {
+  position: absolute;
+    bottom: -74px;
+    display: flex;
+    gap: 14px;
+    width: 241px;
+    right: 171px;
+}
+
+.back {
+  position: absolute;
+  bottom: 7px;
+  gap: 14px;
+  width: 241px;
+  right: 171px;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.activeflex {
+  display: flex;
 }

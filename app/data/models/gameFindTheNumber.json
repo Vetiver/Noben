@@ -13,7 +13,7 @@
     "hotSlides": {}
   },
   "productLogoNeuro": {
-    "src": "media/images/common/betaserk-white-logo.png",
+    "src": "media/images/home/noben.svg",
     "position": "center center",
     "size": "contain"
   },
@@ -23,10 +23,84 @@
   "title": {
     "html": "t.title"
   },
+  "help": {
+    "html": "t.help"
+  },
+  "colorbg": {
+    "src": "media/images/gameFN/colorbg.png",
+    "position": "center center",
+    "size": "contain"
+  },
+
+  "bg": {
+    "src": "media/images/gameFN/bg.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "fing": {
+    "src": "media/images/gameFN/fing.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "6": {
+    "src": "media/images/gameFN/6.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "3": {
+    "src": "media/images/gameFN/3.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "23": {
+    "src": "media/images/gameFN/23.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "6tr": {
+    "src": "media/images/gameFN/6tr.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "3tr": {
+    "src": "media/images/gameFN/3tr.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "23tr": {
+    "src": "media/images/gameFN/23tr.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "A6": {
+    "src": "media/images/gameFN/A6.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "A3": {
+    "src": "media/images/gameFN/A3.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "A23": {
+    "src": "media/images/gameFN/A23.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "show": {
+    "src": "media/images/gameFN/show.png",
+    "position": "center center",
+    "size": "contain"
+  },
+  "back": {
+    "src": "media/images/gameFN/back.png",
+    "position": "center center",
+    "size": "contain"
+  },
   "approveNumber": {
     "html": "t.approveNumber"
   },
   "slideBg": {
-    "src": "media/images/common/thumbs/portraitSlide1.jpg"
+    "src": "media/images/common/thumbs/fn.jpg"
   }
 }

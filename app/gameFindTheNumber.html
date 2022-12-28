@@ -18,7 +18,7 @@
 <body>
 <article class="slide">
 
-  <!--<co-image class="slide-bg" model="m.slideBg"></co-image>-->
+ <!-- <co-image class="slide-bg" model="m.slideBg"></co-image>-->
   <!-- /layout -->
   <rv-template name="layout"></rv-template>
   <!-- /layout -->
@@ -29,7 +29,24 @@
 
 
   <co-container class="main">
-
+    <co-image class="bg" model="m.bg"></co-image>
+    <co-image class="fing" model="m.fing"></co-image>
+    <co-text class="help" model="m.help"></co-text>
+    <co-container class="numbCo">
+      <co-image class="number 6" model="m.6"></co-image>
+      <co-image class="number 3" model="m.3"></co-image>
+      <co-image class="number 23" model="m.23"></co-image>
+    </co-container>
+    <co-container class="numbCoActive">
+      <co-image class="number a6" model="m.A6"></co-image>
+      <co-image class="number a3" model="m.A3"></co-image>
+      <co-image class="number a23" model="m.A23"></co-image>
+    </co-container>
+    <co-image class="tr3" model="m.3tr"></co-image>
+    <co-image class="tr6" model="m.6tr"></co-image>
+    <co-image class="tr23" model="m.23tr"></co-image>
+    <co-image class="show" model="m.show"></co-image>
+    <co-image class="back" model="m.back"></co-image>
   </co-container>
 
   <co-text class="hidden-references" model="m.hiddenReferences"></co-text>
@@ -37,5 +54,28 @@
 
 <script src="../spa/bundle.js"></script>
 <script src="scripts/index.js"></script>
+<script>
+  const show = document.querySelector('.show')
+  const numbers = document.querySelector('.numbCoActive')
+  const a6 = document.querySelector('.a6')
+  const a3 = document.querySelector('.a3')
+  const a23 = document.querySelector('.a23')
+  const tr6 = document.querySelector('.tr6')
+  const tr3 = document.querySelector('.tr3')
+  const tr23 = document.querySelector('.tr23')
+  const back = document.querySelector('.back')
+  console.log(a6)
+  show.addEventListener('click', () => {
+    numbers.classList.add("activeflex")
+    a6.classList.add("active")
+    a3.classList.add("active")
+    a23.classList.add("active")
+    tr6.classList.add("active")
+    tr3.classList.add("active")
+    tr23.classList.add("active")
+    back.classList.add("active")
+  }
+  );
+  </script>
 </body>
 </html>
